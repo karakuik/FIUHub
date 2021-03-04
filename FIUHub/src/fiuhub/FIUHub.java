@@ -19,6 +19,11 @@ public class FIUHub {
         
         System.out.println("Hello World! Commit #1");
         System.out.println("This is FIUHub, a chat program.");
+        
+        //testloop
+        for(int i = 0; i < 10; i++) {
+            System.out.println("Hello World! \n");
+        }
     }
     
 }
