@@ -18,7 +18,7 @@ public class FIUHub {
         // TODO code application logic here
         
         System.out.println("Hello World! Commit #1");
-        System.out.println("Uhh Hello?");
+        System.out.println("This is FIUHub, a chat program.");
     }
     
 }
