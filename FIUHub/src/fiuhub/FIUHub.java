@@ -17,12 +17,36 @@ public class FIUHub {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("Hello World! Commit #1");
-        System.out.println("This is FIUHub, a chat program.");
-        System.out.println("Ryan's Branch Now!");
-        
         System.out.println("Welcome to FIUHub, the connection place for FIU Students.");
-        System.out.println("To create an Account enter 1.\nTo log in, enter 2.\n");
+        System.out.println("To create an Account enter 1.\nTo log in, enter 2. To Register\n");
+    }
+    
+    void Login(String username, String password){
+        //Temp check username and password
+        
+        
+    }
+    
+    void Register(){
+        //Temp, register account
+        
+        
+    }
+    
+    void Menu(int choice){
+        //Menu for navigation
+        do{
+            switch(choice){
+                case 1:{
+                    System.out.println("One");
+                }
+                default:
+                    break;
+            }
+        }
+        while(true);
+        
+        
     }
     
 }
