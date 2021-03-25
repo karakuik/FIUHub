@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package fiuhub;
-
+import java.io.FileNotFoundException;
 /**
  *
  * @author Ryan
@@ -17,10 +17,22 @@ public class FIUHub {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("Hello World! Commit #1");
-        System.out.println("Uhh Hello?");
+        UsernamePassword usernamePasswords = new UsernamePassword();
+        try{
+            usernamePasswords.Read();
+        }
+        catch(Exception e){
+            System.out.println(e);
+        }
         
-        System.out.println("Musa - COMMIT");
+                
+        LoginPage loginPage = new LoginPage(usernamePasswords.getLoginInfo());
+        
+        
+        System.out.println(usernamePasswords);
+        
+        
+        //usernamePasswords.WriteDatabase();
     }
     
 }
