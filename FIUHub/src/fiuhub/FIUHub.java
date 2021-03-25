@@ -19,7 +19,7 @@ public class FIUHub {
         
         System.out.println("Hello World! Commit #1");
         System.out.println("This is FIUHub, a chat program.");
-        System.out.println("Testesttest :)");
+        System.out.println("Changing to main");
         
         //code to test Credentials.java
         Credentials cred = new Credentials();
