@@ -17,19 +17,19 @@ public class FIUHub {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        UsernamePassword usernamePasswords = new UsernamePassword();
+        //UsernamePassword usernamePasswords = new UsernamePassword();
         try{
-            usernamePasswords.Read();
+            //usernamePasswords.Read();
         }
         catch(Exception e){
             System.out.println(e);
         }
         
                 
-        LoginPage loginPage = new LoginPage(usernamePasswords.getLoginInfo());
+        //LoginPage loginPage = new LoginPage(usernamePasswords.getLoginInfo());
         
         
-        System.out.println(usernamePasswords);
+        //System.out.println(usernamePasswords);
         
         
         //usernamePasswords.WriteDatabase();
