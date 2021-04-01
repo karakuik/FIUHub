@@ -78,7 +78,7 @@ public class UsernamePassword {
         try
         {
             BufferedReader br = new BufferedReader(new FileReader
-            ("C:\\Users\\musaj\\OneDrive\\Documents\\Text Database\\input.txt"));
+            ("input.txt"));
             
             String str;
             while((str = br.readLine())!= null)
