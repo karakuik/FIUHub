@@ -14,26 +14,20 @@ public class FIUHub {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+     public static void main(String[] args) throws FileNotFoundException {
         // TODO code application logic here
+         System.out.println("Begin");
+        UsernamePassword usernamePasswords = new UsernamePassword();
         
-        //UsernamePassword usernamePasswords = new UsernamePassword();
-        try{
-            //usernamePasswords.Read();
-        }
-        catch(Exception e){
-            System.out.println(e);
-        }
-        
+        usernamePasswords.Read();
                 
-        //LoginPage loginPage = new LoginPage(usernamePasswords.getLoginInfo());
+        LoginPage loginPage = new LoginPage(usernamePasswords.getLoginInfo());
         
         
-        //System.out.println(usernamePasswords);
+        System.out.println(usernamePasswords);
         
         
         //usernamePasswords.WriteDatabase();
-
     }
     
 }
